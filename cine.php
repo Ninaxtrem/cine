@@ -24,11 +24,15 @@
      <a href="#">Se Connecter</a>
    </p>
   </div>
-
 </nav>
 
-    
+<div class="img">
+ <img src="assets/img/6525.jpg">
+  </div>
 
+  <h2>Le cinéma chez vous</h2>
+
+  
 
 
 
