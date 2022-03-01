@@ -8,6 +8,18 @@
     <title>cinema</title>
 </head>
 <body>
+<div class="bouton">
+  <p>
+   <a href="#">S'inscrire</a>
+ </p>
+</div>
+
+<div class="bouton b">
+  <p>
+   <a href="#">Se Connecter</a>
+ </p>
+</div>
+
     
 
 

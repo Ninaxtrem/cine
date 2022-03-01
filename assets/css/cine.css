@@ -1,0 +1,33 @@
+    body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.bouton a {
+    display:block;
+    width:150px;
+    float:left;
+    margin:2px;
+    line-height:50px;
+    text-align:center;
+    background-color: blue;
+    color:white;
+    text-decoration:none;
+    }
+    .bouton a:hover {
+    background-color: blue;
+    }
+
+    .bouton b {
+        display:block;
+        width: 150px;
+        line-height:50px;
+        text-align:center;
+        background-color: blue;
+        color:white;
+        text-decoration:none;
+        }
+        .bouton b:hover {
+        background-color: rgb(7, 188, 243);
+        }
