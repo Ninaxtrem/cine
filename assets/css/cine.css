@@ -3,12 +3,9 @@
     padding: 0;
     background-color: black;
 }
-
 .bouton a {
     display:block;
     width:150px;
-    float:left;
-    margin:2px;
     line-height:50px;
     text-align:center;
     background-color: blue;
@@ -16,18 +13,19 @@
     text-decoration:none;
     }
     .bouton a:hover {
-    background-color: blue;
+    background-color: aqua;
     }
 
-    .bouton b {
-        display:block;
-        width: 150px;
-        line-height:50px;
-        text-align:center;
-        background-color: blue;
-        color:white;
-        text-decoration:none;
-        }
-        .bouton b:hover {
-        background-color: rgb(7, 188, 243);
-        }
+    nav img {
+        width: auto;
+        height: 100%;
+        max-height: 225px;
+        z-index: 1;
+
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 20vh;
+    }
