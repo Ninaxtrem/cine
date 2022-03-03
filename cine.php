@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>cinema</title>
 </head>
 <body>
@@ -23,7 +24,7 @@
    </p>
   </div>
 
-  <img src="assets/img/images.jpg">
+  <img src="assets/img/METROPOLIS_LOGO_ROND.png">
   
   <div class="bouton">
     <p>
@@ -58,7 +59,9 @@
 <!-- fin chez vous-->
 
 <!--paralax -->
-<div class="para"></div>
+<div class="para">
+  <img src="assets/img/METROPOLIS_NEON.png">
+</div>
 <!-- fin paralax -->
 
 <!--metropolis -->
@@ -77,8 +80,8 @@
 
  <!--footer -->
   <div class="footer">
-  <div class="icone1"></div>
-  <div class="icone2"></div>
+  <div class="icone1"> </div>
+  <div class="icone2"><i class="fa-solid fa-mobile-screen"></i></div>
   <div class="icone3"></div>
   <div class="icone4"></div>
   </div>
