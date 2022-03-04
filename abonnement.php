@@ -15,20 +15,26 @@
     <title>cinema</title>
 </head>
 <body>
-<!-- navbar -->
 <nav>
 
-  <div class="bouton">
-    <p>
-     <a href="#">Inscritpion</a>
-   </p>
-  </div>
+ 
 
   <img src="assets/img/METROPOLIS_LOGO_ROND.png">
   
   <div class="bouton">
     <p>
-     <a href="#">Se Connecter</a>
+     <a href="#">Profil</a>
    </p>
   </div>
 </nav>
+ 
+  <div class="slider">
+    <figure>
+      <img id="image" src="https://i1.wp.com/1.bp.blogspot.com/-z-dt5RCDSlM/TbDLzHsqpvI/AAAAAAAAAMU/_3IkQk5W7Xw/s1600/POTC%2B4%2BBanner.jpg?ssl=1">
+      <img src="https://travelkeasy.fr/wp-content/uploads/2018/07/Fast-Furious-e1503947939331.jpg">
+      <img src="https://static.posters.cz/image/hp/63119.jpg">
+      <img src="https://cdn-media.planete-starwars.com/news/75898-affiche02-169-lg.jpg">
+      <img src="https://freakingeek.com/wp-content/uploads/2019/02/AlitaBattleAngel-Banniere02-800x445.jpg">
+    </figure>
+</div>
+</body>

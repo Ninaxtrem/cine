@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+<link href="  " rel="stylesheet">
     <link rel="stylesheet" href="assets/css/cine.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
     <title>cinema</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 <!-- navbar -->
@@ -36,12 +36,18 @@
 
 <!-- bg -->
 <div class="img">
- <img src="assets/img/Netflix_bg-c198d08298866bfd0ad539ce04a0dd9468de1c170cc56a91855c596cec25d620.jpg">
+  <div class="un"> <img src="assets/img/METROPOLIS_sans bg2.png"></div>
+ <div class="deux">
+   <img src="assets/img/Netflix_bg-c198d08298866bfd0ad539ce04a0dd9468de1c170cc56a91855c596cec25d620.jpg" ></div>
   </div>
 <!-- fin bg-->
 
 <!-- chez vous -->
+
+<div class="h">
   <h2>Le cinéma chez vous</h2>
+</div>
+
 
   <div class="contenaire">
     <div class="box1">
@@ -50,7 +56,7 @@
       <div class="metro">
         <p>
        Vous voulez voir, un bon film, mais pas sortir de chez vous ? 
-       J'ai la solution Métropolis pour 5,99€ par moi. Avec toutes les nouveautés mais avec le confort à la maison.
+       J'ai la solution Métropolis pour <span>5,99€</span> par moi. Avec toutes les nouveautés mais avec le confort à la maison.
         </p>
       </div>
     </div>
@@ -59,17 +65,18 @@
 <!-- fin chez vous-->
 
 <!--paralax -->
-<div class="para">
-  <img src="assets/img/METROPOLIS_NEON.png">
-</div>
+<div id="parallax"><h1>Parallax</h1></div>
 <!-- fin paralax -->
 
 <!--metropolis -->
   <div class="contenaire2">
     <div class="box3">
+      <h2>Histoire</h2>
     <p>
-       Vous voulez voir, un bon film, mais pas sortir de chez vous ? 
-       J'ai la solution Métropolis pour 5,99€ par moi. Avec toutes les nouveautés mais avec le confort à la maison.
+    Le cinéma METROPOLIS naît d’une réflexion menée en 1997.
+    Il paraît alors en effet certain que les 5 salles du cinéma «LES CLUBS» et 
+    la salle du «FORUM» ne correspondraient rapidement plus aux attentes du public. La restructuration complète des deux établissements 
+    est rapidement abandonnée. Un projet de construction d’un multiplexe de 10 salles est alors conduit.
         </p>
     </div>
     <div class="box4">
@@ -80,14 +87,29 @@
 
  <!--footer -->
   <div class="footer">
-  <div class="icone1"> </div>
-  <div class="icone2"><i class="fa-solid fa-mobile-screen"></i></div>
-  <div class="icone3"></div>
-  <div class="icone4"></div>
+  <div class="icone1"><i class="fa-solid fa-desktop fa-10x"></i> 
+  <p>TV
+  </p>
   </div>
- 
+  <div class="icone2"><i class="fa-solid fa-mobile-screen-button fa-10x"></i>
+  <p>Smartphone
+  </p>
+</div>
+  <div class="icone3"><i class="fa-solid fa-tablet-screen-button fa-10x"></i>
+  <p>Tablette
+  </p>
+</div>
+  <div class="icone4"><i class="fa-solid fa-gamepad fa-10x"></i>
+  <p>Console
+  </p>
+</div>
+  </div>
  <!-- fin footer -->
-
+ <div class="copy">
+  <img src="assets/img/METROPOLIS_LOGO_ROND.png">
+ <p>Copyright METROPOLIS</p>
+ </div>
+ <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="assets/js/cine.js"></script>
 </body>
 </html>
