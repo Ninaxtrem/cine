@@ -65,7 +65,9 @@
 <!-- fin chez vous-->
 
 <!--paralax -->
-<div id="parallax"><h1>Parallax</h1></div>
+<div id="parallax"><h1>
+ <div class="m"><img src="assets/img/METROPOLIS_sans bg2.png"></div>
+</h1></div>
 <!-- fin paralax -->
 
 <!--metropolis -->
@@ -104,12 +106,14 @@
   </p>
 </div>
   </div>
- <!-- fin footer -->
+ 
  <div class="copy">
   <img src="assets/img/METROPOLIS_LOGO_ROND.png">
  <p>Copyright METROPOLIS</p>
  </div>
- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <!-- fin footer -->
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="assets/js/cine.js"></script>
 </body>
 </html>
