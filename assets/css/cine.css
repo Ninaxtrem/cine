@@ -136,7 +136,7 @@ body{
 
   .m{
       margin-top: 50%;
-      width: 100%;
+      width: 600px;
       height: 100vh;
       z-index: 6;
       
@@ -243,6 +243,185 @@ body{
 /** page abonement **/
 
 /** nav bar **/
+/** carrousel **/
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
+  }
+  .box {
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 500ms ease-in-out 100ms;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .box.one {
+    background-image: url(https://d1fmx1rbmqrxrr.cloudfront.net/cnet/optim/i/edit/2022/01/Mando%20S3%20Big__w770.jpg);
+  }
+  .box.two {
+    background-image: url(https://img.huffingtonpost.com/asset/5c92b4432a0000d6024def52.jpeg?ops=scalefit_630_noupscale);
+  }
+  .box.three {
+    background-image: url(https://www.rts.ch/2019/05/06/12/13/10396822.image?w=1280&h=720);
+  }
+  .box.four {
+    background-image: url(https://movies.monnaie-services.com/FR/poster/4DD237ED/320/B7CIC.jpg);
+  }
+  .box.five {
+    background-image: url(https://i0.wp.com/views.fr/wp-content/uploads/2020/04/inception_2010_advance_original_film_art_42360bdb-9eb2-48bb-9254-40d8fa27f031_2000x.jpg?resize=1022%2C1500&ssl=1);
+  }
+  .box.six {
+    background-image: url(https://i0.wp.com/views.fr/wp-content/uploads/2020/04/81yNUXs701L._AC_SL1392_.jpg?resize=940%2C1392&ssl=1);
+  }
+  .box.seven {
+    background-image: url(https://resize.prod.docfr.doc-media.fr/s/1200/img/var/doctissimo/storage/images/fr/www/sexualite/diaporamas/10-films-sexy/1895675-1-fre-FR/Les-50-films-les-plus-sexy.jpg);
+  }
+  .box:nth-of-type(1) {
+    transform: translate3d(-190%, -50%, -100px) scale(0.4);
+    z-index: 1;
+  }
+  .box:nth-of-type(2) {
+    transform: translate3d(-190%, -50%, -100px) scale(0.6);
+    z-index: 2;
+  }
+  .box:nth-of-type(3) {
+    transform: translate3d(-130%, -50%, -100px) scale(0.8);
+    z-index: 3;
+  }
+  .box:nth-of-type(4) {
+    z-index: 4;
+  }
+  .box:nth-of-type(5) {
+    transform: translate3d(30%, -50%, -100px) scale(0.8);
+    z-index: 3;
+  }
+  .box:nth-of-type(6) {
+    transform: translate3d(90%, -50%, -100px) scale(0.6);
+    z-index: 2;
+  }
+  .box:nth-of-type(7) {
+    transform: translate3d(90%, -50%, -100px) scale(0.4);
+    z-index: 1;
+  }
+  
+  .btns {
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .btns > span {
+    margin: 10px 2px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    cursor: pointer;
+  }
+  .btns > span:first-child {
+    transform: rotate(-180deg);
+  }
+  .btns > span:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .btns > span > i {
+    color: #fff;
+  }
+  
+/** fin carousel **/
+/** slid **/
+.title{
+    font-size: 1.2em;
+    font-family: Arial;
+    color: #eee;
+    margin: 30px 0 10px;
+  }
+  .container{
+    width: 1400px;
+    margin: 0 auto;
+  }
+  .slider{
+    width: 100%;
+  }
+  .slider-content{
+    width: 100%;
+    white-space: nowrap;
+    transition: all 0.5s;
+  }
+  .slide{
+    width: 16.66666666666667%;
+    display: inline-block;
+    position: relative;
+    transition: all .5s;
+    cursor: pointer;
+  }
+  .slider .slide:nth-child(6n){
+    transform-origin: left center;
+  }
+  .slider .slide:nth-child(6n+6){
+    transform-origin: right center;
+  }
+  .slide-content{
+    width: 100%;
+    padding: 2.5px;
+    box-sizing: border-box;
+  }
+  .slide img{
+    width: 100%;
+    display: block;
+  }
+  .slide:nth-child(6n+1) .onhover{
+    transform: translate(2.5px, -50%);
+    left: 0%;
+  }
+  .slide:nth-child(6n+6) .onhover{
+    transform: translate(-2.5px, -50%);
+    right: 0%;
+    left: initial;
+  }
+  .slide .onhover{
+    width: calc(100% - 5px);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s;
+  }
+  .onhover img{
+    width: 100%;
+  }
+  
+
+  .control-pagination{
+    margin: 30px 0;
+  }
+  .prev, .next{
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+  }
+  .prev:hover, .next:hover{
+    color: #ccc;
+  }
+/**fin slid **/
+/** footer **/
+
+/** nav **/
+
+
 
 
 

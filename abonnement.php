@@ -26,14 +26,141 @@
   </div>
 </nav>
 <!-- fin nav-->
+<!-- carousel -->
+<div class="wrapper">
+  <div class="box one"></div>
+  <div class="box two"></div>
+  <div class="box three"></div>
+  <div class="box four"></div>
+  <div class="box five"></div>
+  <div class="box six"></div>
+  <div class="box seven"></div>
+</div>
 
-
-
-
-
-
-
-
+<div class="btns">
+  <span><i class="material-icons">Suivant</i></span>
+  <span><i class="material-icons">Précedent</i></span>
+</div>
+<!-- fin caroussel-->
+<!--slid-->
+<div class="container">
+  <h1 class="title">Title Category</h1>
+  <div class="slider">
+    <div class="slider-content">
+      <div class="slide">
+        <div class="slide-content">
+          <img src="https://via.placeholder.com/480x320" alt="" />
+          <div class="onhover">
+            <img src="https://via.placeholder.com/480x320" alt="" />
+          </div>
+        </div>
+      </div><div class="slide">
+        <div class="slide-content">
+          <img src="https://via.placeholder.com/480x320" alt="" />
+          <div class="onhover">
+            <img src="https://via.placeholder.com/480x320" alt="" />
+          </div>
+        </div>
+      </div><div class="slide">
+        <div class="slide-content">
+          <img src="https://via.placeholder.com/480x320" alt="" />
+          <div class="onhover">
+            <img src="https://via.placeholder.com/480x320" alt="" />
+          </div>
+        </div>
+      </div><div class="slide">
+        <div class="slide-content">
+          <img src="https://via.placeholder.com/480x320" alt="" />
+          <div class="onhover">
+            <img src="https://via.placeholder.com/480x320" alt="" />
+          </div>
+        </div>
+      </div><div class="slide">
+        <div class="slide-content">
+          <img src="https://via.placeholder.com/480x320" alt="" />
+          <div class="onhover">
+            <img src="https://via.placeholder.com/480x320" alt="" />
+          </div>
+        </div>
+      </div><div class="slide">
+        <div class="slide-content">
+          <img src="https://via.placeholder.com/480x320" alt="" />
+          <div class="onhover">
+            <img src="https://via.placeholder.com/480x320" alt="" />
+          </div>
+        </div>
+      </div><div class="slide">
+        <div class="slide-content">
+          <img src="https://via.placeholder.com/480x320" alt="" />
+          <div class="onhover">
+            <img src="https://via.placeholder.com/480x320" alt="" />
+          </div>
+        </div>
+      </div><div class="slide">
+        <div class="slide-content">
+          <img src="https://via.placeholder.com/480x320" alt="" />
+          <div class="onhover">
+            <img src="https://via.placeholder.com/480x320" alt="" />
+          </div>
+        </div>
+      </div><div class="slide">
+        <div class="slide-content">
+          <img src="https://via.placeholder.com/480x320" alt="" />
+          <div class="onhover">
+            <img src="https://via.placeholder.com/480x320" alt="" />
+          </div>
+        </div>
+      </div><div class="slide">
+        <div class="slide-content">
+          <img src="https://via.placeholder.com/480x320" alt="" />
+          <div class="onhover">
+            <img src="https://via.placeholder.com/480x320" alt="" />
+          </div>
+        </div>
+      </div><div class="slide">
+        <div class="slide-content">
+          <img src="https://via.placeholder.com/480x320" alt="" />
+          <div class="onhover">
+            <img src="https://via.placeholder.com/480x320" alt="" />
+          </div>
+        </div>
+      </div><div class="slide">
+        <div class="slide-content">
+          <img src="https://via.placeholder.com/480x320" alt="" />
+          <div class="onhover">
+            <img src="https://via.placeholder.com/480x320" alt="" />
+          </div>
+        </div>
+      </div><div class="slide">
+        <div class="slide-content">
+          <img src="https://via.placeholder.com/480x320" alt="" />
+          <div class="onhover">
+            <img src="https://via.placeholder.com/480x320" alt="" />
+          </div>
+        </div>
+      </div><div class="slide">
+        <div class="slide-content">
+          <img src="https://via.placeholder.com/480x320" alt="" />
+          <div class="onhover">
+            <img src="https://via.placeholder.com/480x320" alt="" />
+          </div>
+        </div>
+      </div><div class="slide">
+        <div class="slide-content">
+          <img src="https://via.placeholder.com/480x320" alt="" />
+          <div class="onhover">
+            <img src="https://via.placeholder.com/480x320" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="control-pagination">
+    <span class="prev"><i class="fa fa-arrow-left" aria-hidden="true"></i></span>
+    <span class="next"><i class="fa fa-arrow-right" aria-hidden="true"></i></span>
+</div>
+</div>
+<!--fin slid-->
  <!--footer -->
  <div class="footer">
   <div class="icone1"><i class="fa-solid fa-desktop fa-10x"></i> 
@@ -53,12 +180,14 @@
   </p>
 </div>
   </div>
- <!-- fin footer -->
- <div class="copy">
+  <div class="copy">
   <img src="assets/img/METROPOLIS_LOGO_ROND.png">
  <p>Copyright METROPOLIS</p>
 </div>
+ <!-- fin footer -->
 
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="assets/js/cine.js"></script>
 </body>
 </html>
