@@ -13,7 +13,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
     <title>cinema</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https : //fonts.googleapis.com/css2?family= Kanit: wght @200 & display=swap" rel="stylesheet">
+  </head>
 <body>
 <!-- navbar -->
 <nav>
@@ -45,7 +48,7 @@
 <!-- chez vous -->
 
 <div class="h">
-  <h2>Le cinéma chez vous</h2>
+  <th2>Le cinéma chez vous</th2>
 </div>
 
 
@@ -66,14 +69,14 @@
 
 <!--paralax -->
 <div id="parallax"><h1>
- <div class="m"><img src="assets/img/METROPOLIS_sans bg2.png"></div>
+ <div class="m"><img src="assets/img/bg2.png"></div>
 </h1></div>
 <!-- fin paralax -->
 
 <!--metropolis -->
   <div class="contenaire2">
     <div class="box3">
-      <h2>Histoire</h2>
+      <th2>Histoire</th2>
     <p>
     Le cinéma METROPOLIS naît d’une réflexion menée en 1997.
     Il paraît alors en effet certain que les 5 salles du cinéma «LES CLUBS» et 

@@ -27,138 +27,97 @@
 </nav>
 <!-- fin nav-->
 <!-- carousel -->
-<div class="wrapper">
-  <div class="box one"></div>
-  <div class="box two"></div>
-  <div class="box three"></div>
-  <div class="box four"></div>
-  <div class="box five"></div>
-  <div class="box six"></div>
-  <div class="box seven"></div>
-</div>
+<div class="gallery">
+    <div class="gallery-container">
+      <img class="gallery-item gallery-item-1" src="https://images-na.ssl-images-amazon.com/images/I/91+5a2Dr+5L.jpg" data-index="1">
+      <img class="gallery-item gallery-item-2" src="https://offloadmedia.feverup.com/parissecret.com/wp-content/uploads/2020/04/23135042/64792-1024x576.jpg" data-index="2">
+      <img class="gallery-item gallery-item-3" src="https://fr.web.img5.acsta.net/medias/nmedia/18/85/51/91/20018884.jpg" data-index="3">
+      <img class="gallery-item gallery-item-4" src="https://images-na.ssl-images-amazon.com/images/I/81xwztiL2EL.jpg" data-index="4">
+      <img class="gallery-item gallery-item-5" src="https://i.ytimg.com/vi/sl2G4LflBWU/maxresdefault.jpg" data-index="5">
+    </div>
+    <div class="gallery-controls"></div>
+  </div>
 
-<div class="btns">
-  <span><i class="material-icons">Suivant</i></span>
-  <span><i class="material-icons">Précedent</i></span>
-</div>
 <!-- fin caroussel-->
 <!--slid-->
-<div class="container">
-  <h1 class="title">Title Category</h1>
-  <div class="slider">
-    <div class="slider-content">
-      <div class="slide">
-        <div class="slide-content">
-          <img src="https://via.placeholder.com/480x320" alt="" />
-          <div class="onhover">
-            <img src="https://via.placeholder.com/480x320" alt="" />
-          </div>
-        </div>
-      </div><div class="slide">
-        <div class="slide-content">
-          <img src="https://via.placeholder.com/480x320" alt="" />
-          <div class="onhover">
-            <img src="https://via.placeholder.com/480x320" alt="" />
-          </div>
-        </div>
-      </div><div class="slide">
-        <div class="slide-content">
-          <img src="https://via.placeholder.com/480x320" alt="" />
-          <div class="onhover">
-            <img src="https://via.placeholder.com/480x320" alt="" />
-          </div>
-        </div>
-      </div><div class="slide">
-        <div class="slide-content">
-          <img src="https://via.placeholder.com/480x320" alt="" />
-          <div class="onhover">
-            <img src="https://via.placeholder.com/480x320" alt="" />
-          </div>
-        </div>
-      </div><div class="slide">
-        <div class="slide-content">
-          <img src="https://via.placeholder.com/480x320" alt="" />
-          <div class="onhover">
-            <img src="https://via.placeholder.com/480x320" alt="" />
-          </div>
-        </div>
-      </div><div class="slide">
-        <div class="slide-content">
-          <img src="https://via.placeholder.com/480x320" alt="" />
-          <div class="onhover">
-            <img src="https://via.placeholder.com/480x320" alt="" />
-          </div>
-        </div>
-      </div><div class="slide">
-        <div class="slide-content">
-          <img src="https://via.placeholder.com/480x320" alt="" />
-          <div class="onhover">
-            <img src="https://via.placeholder.com/480x320" alt="" />
-          </div>
-        </div>
-      </div><div class="slide">
-        <div class="slide-content">
-          <img src="https://via.placeholder.com/480x320" alt="" />
-          <div class="onhover">
-            <img src="https://via.placeholder.com/480x320" alt="" />
-          </div>
-        </div>
-      </div><div class="slide">
-        <div class="slide-content">
-          <img src="https://via.placeholder.com/480x320" alt="" />
-          <div class="onhover">
-            <img src="https://via.placeholder.com/480x320" alt="" />
-          </div>
-        </div>
-      </div><div class="slide">
-        <div class="slide-content">
-          <img src="https://via.placeholder.com/480x320" alt="" />
-          <div class="onhover">
-            <img src="https://via.placeholder.com/480x320" alt="" />
-          </div>
-        </div>
-      </div><div class="slide">
-        <div class="slide-content">
-          <img src="https://via.placeholder.com/480x320" alt="" />
-          <div class="onhover">
-            <img src="https://via.placeholder.com/480x320" alt="" />
-          </div>
-        </div>
-      </div><div class="slide">
-        <div class="slide-content">
-          <img src="https://via.placeholder.com/480x320" alt="" />
-          <div class="onhover">
-            <img src="https://via.placeholder.com/480x320" alt="" />
-          </div>
-        </div>
-      </div><div class="slide">
-        <div class="slide-content">
-          <img src="https://via.placeholder.com/480x320" alt="" />
-          <div class="onhover">
-            <img src="https://via.placeholder.com/480x320" alt="" />
-          </div>
-        </div>
-      </div><div class="slide">
-        <div class="slide-content">
-          <img src="https://via.placeholder.com/480x320" alt="" />
-          <div class="onhover">
-            <img src="https://via.placeholder.com/480x320" alt="" />
-          </div>
-        </div>
-      </div><div class="slide">
-        <div class="slide-content">
-          <img src="https://via.placeholder.com/480x320" alt="" />
-          <div class="onhover">
-            <img src="https://via.placeholder.com/480x320" alt="" />
-          </div>
-        </div>
-      </div>
+<div class="carousel">
+  <div class="carousel__inner">
+    <div class="carousel__box">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/91+5a2Dr+5L.jpg">
+    </div>
+    <div class="carousel__box">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/91+5a2Dr+5L.jpg">
+    </div>
+    <div class="carousel__box">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/91+5a2Dr+5L.jpg">
+    </div>
+    <div class="carousel__box">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/91+5a2Dr+5L.jpg">
+    </div>
+    <div class="carousel__box">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/91+5a2Dr+5L.jpg">
+    </div>
+    <div class="carousel__box">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/91+5a2Dr+5L.jpg">
+    </div>
+    <div class="carousel__box">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/91+5a2Dr+5L.jpg">
+    </div>
+    <div class="carousel__box">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/91+5a2Dr+5L.jpg">
+    </div>
+    <div class="carousel__box">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/91+5a2Dr+5L.jpg">
     </div>
   </div>
-  <div class="control-pagination">
-    <span class="prev"><i class="fa fa-arrow-left" aria-hidden="true"></i></span>
-    <span class="next"><i class="fa fa-arrow-right" aria-hidden="true"></i></span>
+  
+  <button type="button" class="carousel__control carousel__control--left">
+    <i class="fa fa-angle-left"></i>
+  </button>
+  
+  <button type="button" class="carousel__control carousel__control--right">
+    <i class="fa fa-angle-right"></i>
+  </button>
 </div>
+
+<div class="carousel2">
+  <div class="carousel__inner">
+    <div class="carousel__box">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/91+5a2Dr+5L.jpg">
+    </div>
+    <div class="carousel__box">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/91+5a2Dr+5L.jpg">
+    </div>
+    <div class="carousel__box">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/91+5a2Dr+5L.jpg">
+    </div>
+    <div class="carousel__box">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/91+5a2Dr+5L.jpg">
+    </div>
+    <div class="carousel__box">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/91+5a2Dr+5L.jpg">
+    </div>
+    <div class="carousel__box">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/91+5a2Dr+5L.jpg">
+    </div>
+    <div class="carousel__box">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/91+5a2Dr+5L.jpg">
+    </div>
+    <div class="carousel__box">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/91+5a2Dr+5L.jpg">
+    </div>
+    <div class="carousel__box">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/91+5a2Dr+5L.jpg">
+    </div>
+  </div>
+  
+  <button type="button" class="carousel__control carousel__control--left">
+    <i class="fa fa-angle-left"></i>
+  </button>
+  
+  <button type="button" class="carousel__control carousel__control--right">
+    <i class="fa fa-angle-right"></i>
+  </button>
 </div>
 <!--fin slid-->
  <!--footer -->

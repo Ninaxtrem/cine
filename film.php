@@ -26,15 +26,61 @@
   </div>
 </nav>
 <!-- fin nav-->
+<!-- Affiche -->
+<div class="bg3">
+ <div class="Harry">
+  </div>
+<!-- acteurs -->
+<div class="container">
+  <div class="card card0">
+    <div class="border">
+      <h2>Radcliffe Daniel</h2>
+      
+    </div>
+  </div>
+  <div class="card card1">
+    <div class="border">
+      <h2>Watson Emma</h2>
+      
+    </div>
+  </div>
+  <div class="card card2">
+    <div class="border">
+      <h2>Grint Rupert</h2>
+      
+    </div>
+  </div>
+</div>
+<!-- fin acteur -->
+<!-- synopsi-->
+<div class="titre">Résumer</div>
+<div class="text">
+Orphelin, Harry Potter a été recueilli à contrecœur par son oncle Vernon et sa tante Pétunia, 
+aussi cruels que mesquins, qui n'hésitent pas à le faire dormir dans le placard sous l'escalier. 
+Constamment maltraité, il doit en outre supporter les jérémiades de son cousin Dudley, garçon cupide et archi-gâté par ses parents. 
+De leur côté, Vernon et Pétunia détestent leur neveu dont la présence leur rappelle sans cesse 
+le tempérament "imprévisible" des parents du garçon et leur mort mystérieuse.
+À l'approche de ses 11 ans, Harry ne s'attend à rien de particulier – ni carte, ni cadeau, 
+ni même un goûter d'anniversaire. Et pourtant, c'est à cette occasion qu'il découvre qu'il est le fils de deux puissants 
+magiciens et qu'il possède lui aussi d'extraordinaires pouvoirs. Quand on lui propose d'intégrer Poudlard, la prestigieuse école 
+de sorcellerie, il trouve enfin le foyer et la famille qui lui ont toujours manqué… et s'engage dans l'aventure de sa vie.
+</div>
+<!--  fin synopsi-->
+<!-- trailer-->
+<div class="tv">
+  <!-- <img src="assets/img/netflix-1200x852.png"> -->
+  <div class="video">
+    </div>
+  <iframe class="yt-video" width="900" height="600" src="https://www.youtube.com/embed/x6QhoEUIt3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
 
 
 
+</div>
 
 
 
-
-
- <!--footer -->
+ <!--footer 
  <div class="footer">
   <div class="icone1"><i class="fa-solid fa-desktop fa-10x"></i> 
   <p>TV
@@ -58,7 +104,7 @@
   <img src="assets/img/METROPOLIS_LOGO_ROND.png">
  <p>Copyright METROPOLIS</p>
 </div>
- <!-- fin footer -->
+ fin footer -->
 <script src="assets/js/cine.js"></script>
 </body>
 </html>
