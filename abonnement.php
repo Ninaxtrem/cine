@@ -21,7 +21,7 @@
   
   <div class="bouton">
     <p>
-     <a href="#">Profil</a>
+     <a href="profil.php">Profil</a>
    </p>
   </div>
 </nav>

@@ -23,7 +23,7 @@
 
   <div class="bouton">
     <p>
-     <a href="#">Inscritpion</a>
+     <a href="inscription.php">Inscritpion</a>
    </p>
   </div>
 
@@ -31,7 +31,7 @@
   
   <div class="bouton">
     <p>
-     <a href="#">Se Connecter</a>
+     <a href="connect.php">Se Connecter</a>
    </p>
   </div>
 </nav>

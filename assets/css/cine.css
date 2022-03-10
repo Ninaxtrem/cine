@@ -82,7 +82,7 @@ body{
         text-align: center;
         font-size: 60px;
         font-family: 'Orbitron', sans-serif;
-        padding: 2%;
+        padding: 5%;
         z-index: 2;
     }
 
@@ -725,8 +725,60 @@ img{
 }
 
 
-
-
-
-
 /** footer **/
+.footer1{
+    margin-top: 125%;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: #b40000;
+    height: 300px;
+    margin: 6px;
+    padding: 3px;
+    column-gap: 15%;
+    text-align: center;
+    font-size: 10px;
+    margin-left: 10%;
+}
+
+
+
+.icone1{
+text-align: center;
+color: aliceblue;
+height: 30px;
+margin-left: 100px;
+}
+
+.icone2{
+    text-align: center;
+    color: aliceblue;
+    height: 30px;
+}
+
+.icone3{
+    text-align: center;
+    color: aliceblue;
+    height: 30px;
+}
+
+.icone4{
+    text-align: center;
+    color: aliceblue;
+    height: 30px;
+    margin-right: 30px;
+}
+.copy{
+    color: #b40000;
+    text-align: center;;
+}
+.copy img{
+  width: auto;
+  height: 100%;
+  max-height: 225px;
+  z-index: 1;
+}
+
+/** FIN FOOTER **/ 

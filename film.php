@@ -21,7 +21,7 @@
   
   <div class="bouton">
     <p>
-     <a href="#">Profil</a>
+     <a href="profil.php">Profil</a>
    </p>
   </div>
 </nav>
@@ -66,9 +66,9 @@ magiciens et qu'il possède lui aussi d'extraordinaires pouvoirs. Quand on lui p
 de sorcellerie, il trouve enfin le foyer et la famille qui lui ont toujours manqué… et s'engage dans l'aventure de sa vie.
 </div>
 <!--  fin synopsi-->
+
 <!-- trailer-->
 <div class="tv">
-  <!-- <img src="assets/img/netflix-1200x852.png"> -->
   <div class="video">
     </div>
   <iframe class="yt-video" width="900" height="600" src="https://www.youtube.com/embed/x6QhoEUIt3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
@@ -76,11 +76,12 @@ de sorcellerie, il trouve enfin le foyer et la famille qui lui ont toujours manq
 
 
 
-</div>
 
 
 
- <!--footer 
+
+ <!--footer -->
+ <div class="footer1">
  <div class="footer">
   <div class="icone1"><i class="fa-solid fa-desktop fa-10x"></i> 
   <p>TV
@@ -104,7 +105,8 @@ de sorcellerie, il trouve enfin le foyer et la famille qui lui ont toujours manq
   <img src="assets/img/METROPOLIS_LOGO_ROND.png">
  <p>Copyright METROPOLIS</p>
 </div>
- fin footer -->
+ </div>
+ <!--fin footer -->
 <script src="assets/js/cine.js"></script>
 </body>
 </html>
