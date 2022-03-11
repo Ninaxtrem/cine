@@ -561,7 +561,7 @@ body{
 /** nav **/
 /**Affiche**/
 .bg3 {
-    background-image: url(../img/ccbe03d7-vodvignette16x9f5bdc51d6a24c35a8d23e134ad979614c60510724f2a7f8e27a79a0cea8f2be4.jpg);
+    /**background-image: url(../img/ccbe03d7-vodvignette16x9f5bdc51d6a24c35a8d23e134ad979614c60510724f2a7f8e27a79a0cea8f2be4.jpg);**/
     background-color: #b40000;
     position: relative;
     background-repeat: no-repeat;
@@ -622,15 +622,26 @@ body{
     position: relative;
   }
   .card0 {
-    background: url("https://pbs.twimg.com/media/EdmTKKgWAAITXm5.png") center center no-repeat;
+    /**background: url("https://pbs.twimg.com/media/EdmTKKgWAAITXm5.png") center center no-repeat;**/
     background-size: 300px;
+    
   }
-  .card0:hover {
-    background: url("https://pbs.twimg.com/media/EdmTKKgWAAITXm5.png") center center no-repeat;
+
+  .card0 img{
+    /**background: url("https://pbs.twimg.com/media/EdmTKKgWAAITXm5.png") center center no-repeat;**/
+    background-size: 300px;
+ }
+
+  
+  .card0:hover{
+    /**background: url("https://pbs.twimg.com/media/EdmTKKgWAAITXm5.png") center center no-repeat;**/
     background-size: 600px;
   }
   .card0:hover h2 {
     opacity: 1;
+    position : relative;
+    z-index: 50;
+ 
   }
   .card0:hover .fa {
     opacity: 1;

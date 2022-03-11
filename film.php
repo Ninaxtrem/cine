@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+<?php include("traitement.php")
+?>
 <!-- navbar -->
 <nav>
   <img src="assets/img/METROPOLIS_LOGO_ROND.png">
@@ -26,44 +28,49 @@
   </div>
 </nav>
 <!-- fin nav-->
+<?php 
+$sql = "SELECT * FROM cn_film WHERE id_Film=".$_GET["id_film"]."";
+$requete=$bdd->prepare($sql);
+$requete->execute();
+$affiche = $requete->fetch(); 
+
+$sql2 = "SELECT * FROM travailler t,cn_equipe ce, cn_film cf WHERE t.id_equipe=ce.id_equipe AND t.id_Film=cf.id_Film AND
+ cf.id_Film=".$_GET["id_film"]."";
+$requete2=$bdd->prepare($sql2);
+$requete2->execute();
+
+
+?>
 <!-- Affiche -->
 <div class="bg3">
  <div class="Harry">
+ <img src="<?php echo $affiche["image_film"];?>">
   </div>
 <!-- acteurs -->
 <div class="container">
-  <div class="card card0">
+<?php 
+while ($affiche2 = $requete2->fetch())
+{ 
+  ?>
+<div class="card card0">
     <div class="border">
-      <h2>Radcliffe Daniel</h2>
-      
+    <img src="<?php echo $affiche2["img_equipe"];?>">
+      <h2><?php echo $affiche2["nom_equipe"]; ?></h2>   
     </div>
   </div>
-  <div class="card card1">
-    <div class="border">
-      <h2>Watson Emma</h2>
-      
-    </div>
-  </div>
-  <div class="card card2">
-    <div class="border">
-      <h2>Grint Rupert</h2>
-      
-    </div>
-  </div>
+
+<?php
+}
+?>
+
+
+
 </div>
 <!-- fin acteur -->
 <!-- synopsi-->
 <div class="titre">Résumer</div>
 <div class="text">
-Orphelin, Harry Potter a été recueilli à contrecœur par son oncle Vernon et sa tante Pétunia, 
-aussi cruels que mesquins, qui n'hésitent pas à le faire dormir dans le placard sous l'escalier. 
-Constamment maltraité, il doit en outre supporter les jérémiades de son cousin Dudley, garçon cupide et archi-gâté par ses parents. 
-De leur côté, Vernon et Pétunia détestent leur neveu dont la présence leur rappelle sans cesse 
-le tempérament "imprévisible" des parents du garçon et leur mort mystérieuse.
-À l'approche de ses 11 ans, Harry ne s'attend à rien de particulier – ni carte, ni cadeau, 
-ni même un goûter d'anniversaire. Et pourtant, c'est à cette occasion qu'il découvre qu'il est le fils de deux puissants 
-magiciens et qu'il possède lui aussi d'extraordinaires pouvoirs. Quand on lui propose d'intégrer Poudlard, la prestigieuse école 
-de sorcellerie, il trouve enfin le foyer et la famille qui lui ont toujours manqué… et s'engage dans l'aventure de sa vie.
+<?php echo $affiche["sinopsy_film"];?>
 </div>
 <!--  fin synopsi-->
 
@@ -71,7 +78,7 @@ de sorcellerie, il trouve enfin le foyer et la famille qui lui ont toujours manq
 <div class="tv">
   <div class="video">
     </div>
-  <iframe class="yt-video" width="900" height="600" src="https://www.youtube.com/embed/x6QhoEUIt3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+  <iframe class="yt-video" width="900" height="600" src="<?php echo $affiche["trailer_film"];?>" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 </div>
 
 
