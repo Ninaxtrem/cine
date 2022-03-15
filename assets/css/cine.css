@@ -561,7 +561,6 @@ body{
 /** nav **/
 /**Affiche**/
 .bg3 {
-    /**background-image: url(../img/ccbe03d7-vodvignette16x9f5bdc51d6a24c35a8d23e134ad979614c60510724f2a7f8e27a79a0cea8f2be4.jpg);**/
     background-color: #b40000;
     position: relative;
     background-repeat: no-repeat;
@@ -622,19 +621,14 @@ body{
     position: relative;
   }
   .card0 {
-    /**background: url("https://pbs.twimg.com/media/EdmTKKgWAAITXm5.png") center center no-repeat;**/
+    margin-top: 80%;
+    background-position: center center;
+    background-repeat: no-repeat;
     background-size: 300px;
     
   }
 
-  .card0 img{
-    /**background: url("https://pbs.twimg.com/media/EdmTKKgWAAITXm5.png") center center no-repeat;**/
-    background-size: 300px;
- }
-
-  
   .card0:hover{
-    /**background: url("https://pbs.twimg.com/media/EdmTKKgWAAITXm5.png") center center no-repeat;**/
     background-size: 600px;
   }
   .card0:hover h2 {
@@ -646,34 +640,7 @@ body{
   .card0:hover .fa {
     opacity: 1;
   }
-  .card1 {
-    background: url("https://i.pinimg.com/originals/ed/7a/b7/ed7ab76b982b7b58cae30d8b294c4a9b.png") center center no-repeat;
-    background-size: 300px;
-  }
-  .card1:hover {
-    background: url("https://i.pinimg.com/originals/ed/7a/b7/ed7ab76b982b7b58cae30d8b294c4a9b.png") left center no-repeat;
-    background-size: 600px;
-  }
-  .card1:hover h2 {
-    opacity: 1;
-  }
-  .card1:hover .fa {
-    opacity: 1;
-  }
-  .card2 {
-    background: url("https://i.pinimg.com/originals/e9/95/55/e99555ba360cc2727fca75ecc3276ce3.jpg") center center no-repeat;
-    background-size: 300px;
-  }
-  .card2:hover {
-    background: url("https://i.pinimg.com/originals/e9/95/55/e99555ba360cc2727fca75ecc3276ce3.jpg") left center no-repeat;
-    background-size: 600px;
-  }
-  .card2:hover h2 {
-    opacity: 1;
-  }
-  .card2:hover .fa {
-    opacity: 1;
-  }
+  
   h2 {
     font-family: 'Orbitron', sans-serif;
     color: rgb(250, 6, 6);
@@ -738,7 +705,7 @@ img{
 
 /** footer **/
 .footer1{
-    margin-top: 125%;
+    margin-top: 60%;
 }
 .footer{
     display: flex;

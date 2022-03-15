@@ -34,10 +34,16 @@ $requete=$bdd->prepare($sql);
 $requete->execute();
 $affiche = $requete->fetch(); 
 
-$sql2 = "SELECT * FROM travailler t,cn_equipe ce, cn_film cf WHERE t.id_equipe=ce.id_equipe AND t.id_Film=cf.id_Film AND
- cf.id_Film=".$_GET["id_film"]."";
+
+
+$sql2 = "SELECT * FROM travailler, cn_equipe WHERE travailler.id_Film = :id_film AND cn_equipe.id_equipe = travailler.id_equipe";
 $requete2=$bdd->prepare($sql2);
-$requete2->execute();
+$requete2->execute(  [
+  ':id_film' => $_GET["id_film"],
+]
+); // chopper les infos acteurs liés par la table travailler
+// die('<h1>'.$requete2->rowCount().'</h1>');
+
 
 
 ?>
@@ -49,13 +55,12 @@ $requete2->execute();
 <!-- acteurs -->
 <div class="container">
 <?php 
-while ($affiche2 = $requete2->fetch())
+while ($infoActeur = $requete2->fetch())
 { 
   ?>
-<div class="card card0">
+<div class="card card0" style="background-image: url('<?= $infoActeur["img_equipe"] ?>');">
     <div class="border">
-    <img src="<?php echo $affiche2["img_equipe"];?>">
-      <h2><?php echo $affiche2["nom_equipe"]; ?></h2>   
+      <h2><?php echo $infoActeur["nom_equipe"]; ?></h2>   
     </div>
   </div>
 
