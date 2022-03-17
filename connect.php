@@ -17,6 +17,15 @@
     </header>
     <div class="login-sqare">
       <h1 class="title">Connection</h1>
+      <br>
+      <?php
+      if(isset($_GET['message'])){
+        if($_GET['message'] == "success") {
+        echo"votre inscription a bien été prise en compte";
+        }
+      }
+    
+      ?>
       <form action="#" class="sign-form">
         <div>
           <input

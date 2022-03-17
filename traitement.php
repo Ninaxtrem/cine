@@ -12,13 +12,4 @@ try {
     die();
 }
 
-// recherche info via requete sql
-/*$sql = "SELECT * FROM film";
-$requete = $bdd->prepare('$sql');
-$requete->execute();
-
-while ($row = $prepare->fetch() ) {
-
-}*/
-
 ?>
