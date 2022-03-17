@@ -16,21 +16,22 @@
   </div>
   <div class="login-sqare">
     <h1 class="title">Inscrption</h1>
-    <?php
+
+    <?php 
+     if(isset($_GET['message'])){
+      if($_GET['message'] == "error3") {
+      echo"<div class='title'>mail deja utiliser</div>";
+      }
+    }
       if(isset($_GET['message'])){
         if($_GET['message'] == "error2") {
-        echo"Pseudo utilisé ";
+        echo"<div class='title'>Pseudo utilisé</div> ";
         }
       }
+   
       if(isset($_GET['message'])){
         if($_GET['message'] == "error") {
-        echo"le mot de passe n'est pas identique";
-        }
-      }
-
-      if(isset($_GET['message'])){
-        if($_GET['message'] == "error3") {
-        echo"mail deja utiliser";
+        echo"<div class='title'>le mot de passe n'est pas identique</div>";
         }
       }
       ?>

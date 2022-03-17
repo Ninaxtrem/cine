@@ -18,15 +18,19 @@
     <div class="login-sqare">
       <h1 class="title">Connection</h1>
       <br>
+      <form  class="sign-form" action="connection.php" method="POST">
       <?php
-      if(isset($_GET['message'])){
+      if(isset($_GET['message'])) {
         if($_GET['message'] == "success") {
         echo"votre inscription a bien été prise en compte";
         }
+
+          if($_GET['message'] == "error") {
+          echo"<div class=titre>Le mail rentré n'existe pas</div>";
+          }
       }
     
       ?>
-      <form action="#" class="sign-form">
         <div>
           <input
             class="input"
@@ -47,8 +51,8 @@
             autocomplete="off"
           />
         </div>
-        <div><button class="button">Sign In</button></div>
-
+        <div><input type="submit" class="button">Sign In</button></div>
+      </form>
         <div class="check-div">
           <label class="container">
             <span class="remember-text"> Se souvenir de moi </span>

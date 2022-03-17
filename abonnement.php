@@ -1,3 +1,7 @@
+<?php session_start();
+
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -21,8 +25,15 @@
   
   <div class="bouton">
     <p>
-     <a href="profil.php">Profil</a>
+     <a href="profil.php">  bonjour <?php echo $_SESSION['nom']; ?> </a>
    </p>
+   <div class="bouton">
+    <p>
+     <a href="deco.php">deconection</a>
+   </p>
+  </div>
+
+
   </div>
 </nav>
 <!-- fin nav-->
@@ -148,5 +159,9 @@
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="assets/js/cine.js"></script>
+
+
+
+
 </body>
 </html>

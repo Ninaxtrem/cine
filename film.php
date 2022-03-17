@@ -1,3 +1,6 @@
+<?php session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,7 +26,7 @@
   
   <div class="bouton">
     <p>
-     <a href="profil.php">Profil</a>
+     <a href="profil.php">bonjour <?php echo $_SESSION['nom']; ?></a>
    </p>
   </div>
 </nav>
