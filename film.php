@@ -32,14 +32,14 @@
 </nav>
 <!-- fin nav-->
 <?php 
-$sql = "SELECT * FROM cn_film WHERE id_Film=".$_GET["id_film"]."";
+$sql = "SELECT * FROM cn_film WHERE id_film=".$_GET["id_film"]."";
 $requete=$bdd->prepare($sql);
 $requete->execute();
 $affiche = $requete->fetch(); 
 
 
 
-$sql2 = "SELECT * FROM travailler, cn_equipe WHERE travailler.id_Film = :id_film AND cn_equipe.id_equipe = travailler.id_equipe";
+$sql2 = "SELECT * FROM travailler, cn_equipe WHERE travailler.id_film = :id_film AND cn_equipe.id_equipe = travailler.id_equipe";
 $requete2=$bdd->prepare($sql2);
 $requete2->execute(  [
   ':id_film' => $_GET["id_film"],

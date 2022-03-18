@@ -1,4 +1,12 @@
-<?php session_start();
+<?php
+include "traitement.php"; 
+session_start();
+
+$sql1 = "SELECT * FROM cn_Film";
+$requete1= $bdd->prepare($sql1);
+$requete1->execute();
+
+
 
 ?>
 
@@ -29,7 +37,7 @@
    </p>
    <div class="bouton">
     <p>
-     <a href="deco.php">deconection</a>
+     <a href="deco.php">Déconnexion</a>
    </p>
   </div>
 
@@ -40,11 +48,18 @@
 <!-- carousel -->
 <div class="gallery">
     <div class="gallery-container">
-      <img class="gallery-item gallery-item-1" src="https://images-na.ssl-images-amazon.com/images/I/91+5a2Dr+5L.jpg" data-index="1">
-      <img class="gallery-item gallery-item-2" src="https://offloadmedia.feverup.com/parissecret.com/wp-content/uploads/2020/04/23135042/64792-1024x576.jpg" data-index="2">
-      <img class="gallery-item gallery-item-3" src="https://fr.web.img5.acsta.net/medias/nmedia/18/85/51/91/20018884.jpg" data-index="3">
-      <img class="gallery-item gallery-item-4" src="https://images-na.ssl-images-amazon.com/images/I/81xwztiL2EL.jpg" data-index="4">
-      <img class="gallery-item gallery-item-5" src="https://i.ytimg.com/vi/sl2G4LflBWU/maxresdefault.jpg" data-index="5">
+    <?php
+
+// <a href="film.php?id_film<?php echo $resultat1["id_Film"]">
+
+$i = 1;
+    while ($resultat1 =$requete1->fetch()){
+   ?>
+     <img class="gallery-item gallery-item-<?php echo $i;?>" src="<?php echo $resultat1["image_film"]?>" data-index="<?php echo $i;?>">
+      <?php $i++;
+    }
+    
+      ?>
     </div>
     <div class="gallery-controls"></div>
   </div>
@@ -53,35 +68,17 @@
 <!--slid-->
 <div class="carousel">
   <div class="carousel__inner">
+    <?php 
+       while ($resultat1 =$requete1->fetch()){
+    ?>
     <div class="carousel__box">
-      <img src="https://images-na.ssl-images-amazon.com/images/I/91+5a2Dr+5L.jpg">
+     <a href="film.php?id_film=<?php echo $resultat1["id_film"]?>"> <img src="<?php echo $resultat1["image_film"]?>" style= "width:300px; height: 200px"> </a>
+
     </div>
-    <div class="carousel__box">
-      <img src="https://images-na.ssl-images-amazon.com/images/I/91+5a2Dr+5L.jpg">
-    </div>
-    <div class="carousel__box">
-      <img src="https://images-na.ssl-images-amazon.com/images/I/91+5a2Dr+5L.jpg">
-    </div>
-    <div class="carousel__box">
-      <img src="https://images-na.ssl-images-amazon.com/images/I/91+5a2Dr+5L.jpg">
-    </div>
-    <div class="carousel__box">
-      <img src="https://images-na.ssl-images-amazon.com/images/I/91+5a2Dr+5L.jpg">
-    </div>
-    <div class="carousel__box">
-      <img src="https://images-na.ssl-images-amazon.com/images/I/91+5a2Dr+5L.jpg">
-    </div>
-    <div class="carousel__box">
-      <img src="https://images-na.ssl-images-amazon.com/images/I/91+5a2Dr+5L.jpg">
-    </div>
-    <div class="carousel__box">
-      <img src="https://images-na.ssl-images-amazon.com/images/I/91+5a2Dr+5L.jpg">
-    </div>
-    <div class="carousel__box">
-      <img src="https://images-na.ssl-images-amazon.com/images/I/91+5a2Dr+5L.jpg">
-    </div>
+    <?php
+       }
+    ?>
   </div>
-  
   <button type="button" class="carousel__control carousel__control--left">
     <i class="fa fa-angle-left"></i>
   </button>
