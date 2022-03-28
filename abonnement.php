@@ -2,7 +2,7 @@
 include "traitement.php"; 
 session_start();
 
-$sql1 = "SELECT * FROM cn_Film";
+$sql1 = "SELECT * FROM cn_film";
 $requete1= $bdd->prepare($sql1);
 $requete1->execute();
 
@@ -68,17 +68,24 @@ $i = 1;
 <!--slid-->
 <div class="carousel">
   <div class="carousel__inner">
-    <?php 
-       while ($resultat1 =$requete1->fetch()){
-    ?>
+  <?php
+   $sql5 = "SELECT * FROM cn_film";
+$requete5= $bdd->prepare($sql5);
+$requete5->execute();
+  
+     while ($resultat5 =$requete5->fetch()){
+      ?> 
     <div class="carousel__box">
-     <a href="film.php?id_film=<?php echo $resultat1["id_film"]?>"> <img src="<?php echo $resultat1["image_film"]?>" style= "width:300px; height: 200px"> </a>
-
+      <a href="film.php?id_film=<?php echo $resultat5["id_film"];?>">
+      <img src="<?php echo $resultat5["image_film"];?>"></a>
     </div>
     <?php
-       }
-    ?>
+
+}
+
+?>
   </div>
+
   <button type="button" class="carousel__control carousel__control--left">
     <i class="fa fa-angle-left"></i>
   </button>
@@ -87,7 +94,6 @@ $i = 1;
     <i class="fa fa-angle-right"></i>
   </button>
 </div>
-
 <div class="carousel2">
   <div class="carousel__inner">
     <div class="carousel__box">
